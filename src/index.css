@@ -1,0 +1,103 @@
+@font-face {
+    src: url(./assets/fonts/Inter-Bold.ttf);
+    font-family: 'Inter-Bold';
+}
+
+@font-face {
+    src: url(./assets/fonts/Inter-Medium.ttf);
+    font-family: 'Inter-Medium';
+}
+
+@font-face {
+    src: url(./assets/fonts/Inter-Regular.ttf);
+    font-family: 'Inter-Regular';
+}
+
+html { font-size:62.5%; }
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:0;
+  }
+
+.d-flex { display:flex; }
+
+.align-items-center { align-items: center;}
+
+.justify-content-between { justify-content: space-between;}
+
+.bg-darkergray { background-color:#21222A; }
+
+.bg-darkgray { background-color:#282D35; }
+
+.text-brightblue { color:#61DAFB;}
+
+.text-lighterblue { color:#DEEBF8; }
+
+.text-white{ color:#FFFFFF;}
+
+h1 {
+    font-family: 'Inter-Bold';
+    font-size:3.9rem;
+}
+
+nav {
+    height:9.1rem;
+    padding-left:2.7rem;
+    padding-right:2.7rem;
+}
+
+.nav-logo-img {
+    width:2.89rem;
+    height:2.89rem;
+}
+
+.site-title { padding-left:0.5rem;}
+
+.site-title-text {
+    font-family: 'Inter-Bold';
+    font-size:2.22rem;
+    letter-spacing: -0.1113rem;
+}
+
+nav p {
+    font-family: 'Inter-Medium';
+    font-size:1.6rem;
+}
+
+.content-section {
+    height:100vh;
+    background-image: url(assets/img/react-bg-logo.webp);
+    background-repeat:no-repeat;
+    background-position: center right;
+    padding-top:5.7rem;
+    padding-left:2.7rem;
+    padding-right:2.7rem;
+}
+
+.facts ul { 
+    padding-top:4.6rem;
+    padding-left:5.1rem; 
+}
+
+::marker { 
+    color:#61DAFB;
+    font-size: 2.7rem;
+}
+
+.facts ul li {
+    font-family: 'Inter-Regular';
+    font-size:1.6rem;
+}
+
+@media only screen and (max-width: 389px) { html { font-size:50.5%; } }
+
+@media only screen and (max-width: 318px) { html { font-size:45.5%; } }
+
+@media only screen and (max-width: 286px) { html { font-size:36.5%; } }
+
+@media only screen and (max-width: 230px) { html { font-size:28.5%; } }
+
+@media only screen and (max-width: 182px) { html { font-size:22.5%; } }
